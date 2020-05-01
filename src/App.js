@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './styles.css'
 import {Header} from './Header/Header.js'
 
 import {MemeGenerator} from './MemeGenerator/MemeGenerator.js'
@@ -10,7 +11,6 @@ function App() {
 
     <div>
     <Header/>
-    Hello World
     <MemeGenerator/>
     </div>
 
